@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <div class="search">
+
+                            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                            <a href="#">Search</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="libary">
+                <div class="all-libary">
+
+
+                    <div class="left-libary">
+                        <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
+                        <span> Your Library</span>
+                    </div>
+                    <div class="right-libary">
+                        <div class="plus">
+                            <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="arrow">
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <div class="left-btn">
+
+                        <a href="#">Playlists</a>
+                    </div>
+
+                    <div class="center-btn">
+                        <a href="#">Artists</a>
+                    </div>
+                    <div class="right-btn">
+                        <a href="#">Albums</a>
+                    </div>
+                </div>
+                <div class="liked">
+                    <div class="top-liked">
+                        <div class="left-liked">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                    <div class="right-liked">
+                        <span>Recent</span>
+                        <i class="fa-solid fa-caret-down" style="color: #ffffff;"></i>
+                    </div>
+
+                </div>
+                <div class="down-box">
+                    <ul>
+                        <li>
+                            <div class="left-box">
+                                <img src="./images/liked.png" alt="">
+
+                            </div>
+                            <div class="right-box">
+                                <h3>Liked Songs</h3>
+                                <i class="fa-solid fa-thumbtack fa-flip-horizontal" style="color: #1ed760;"></i>
+                                <span>Playlist . 16 songs</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left-box">
+                                <img src="./images/shyam-ji.jpeg" alt="">
+
+                            </div>
+                            <div class="right-box">
+                                <h3>Khatu Shyam Bhajan</h3>
+
+                                <span>Album • Bhakti </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left-box">
+                                <img src="./images/shubh.jpeg" alt="">
+
+                            </div>
+                            <div class="right-box">
+                                <h3>Shubh</h3>
+
+                                <span>Artist</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left-box">
+                                <img src="./images/khasa.jpeg" alt="">
+
+                            </div>
+                            <div class="right-box">
+                                <h3>Khasa Aala Chahar</h3>
+                                <i class="fa-solid fa-thumbtack fa-flip-horizontal" style="color: #1ed760;"></i>
+                                <span>Artist</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left-box">
+                                <img src="./images/divine.jpeg" alt="">
+
+                            </div>
+                            <div class="right-box">
+                                <h3>Divine</h3>
+                                <i class="fa-solid fa-thumbtack fa-flip-horizontal" style="color: #1ed760;"></i>
+                                <span>Artist</span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-data">
+
+                <div class="bg">
+
+
+                    <div class="top-nav">
+                        <div class="left-nav">
+                            <div class="first-btn">
+
+                                <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="two-btn">
+
+                                <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div class="right-nav">
+                            <div class="prem  hide">
+                                <a href="#">Explore Premium</a>
+                            </div>
+                            <div class="install hide">
+                                <i class="fa-regular fa-circle-down" style="color: #ffffff;"></i> <a href="#">Install
+                                    App</a>
+                            </div>
+                            <div class="notification">
+
+                                <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="user">
+
+                                <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <h2>Recently Played </h2>
+                    <div class="cards-one">
+                        <ul>
+                            <li>
+                                <div class="data-card">
+                                    <img src="./images/shyam-ji.jpeg" alt="">
+                                    <h3>Daily Mix 1</h3>
+                                    <p>Khatu Shyam Bhajan Album</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-one">
+                    <div class="top-text">
+                        <h2>
+                            <a href="#">
+                                Getting down to business</a>
+                        </h2>
+                        <span>
+                            <a href="#">Show all</a>
+                        </span>
+
+
+
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/shyam-ji.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>Khatu Shyam Bhajan Album • Bhakti</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/sandeep.jpg" alt="">
+                                <h3>Sandeep Choudhary</h3>
+                                <p>Khatu Shyam Bhajan Album • Bhakti</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/two-first.jpeg" alt="">
+                                <h3>Daybreak</h3>
+                                <p>Pritam, Jatin-Lalit,
+                                    and more</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/three-first.jpeg" alt="">
+                                <h3>Finshots Daily</h3>
+                                <p>'Jaane Jaan' title track is
+                                    ,and we can't...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/four-first.jpeg" alt="">
+                                <h3>Business Wars</h3>
+                                <p>Let these songs
+                                    background to yo...</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="card-one">
+                    <div class="top-text">
+                        <h2>
+                            <a href="#">
+                                Made For Sandeep Nitharwal</a>
+                        </h2>
+                        <span>
+                            <a href="#">Show all</a>
+                        </span>
+
+
+
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/shyamji-one.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>Shyama Sang preet Album • Bhakti...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/sandeep.jpg" alt="">
+                                <h3>Daily Mix 2</h3>
+                                <p>Khatu Shyam Bhajan Album • Bhakti</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/divine.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>divine and sandeep bhai</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/shubh.jpeg" alt="">
+                                <h3>Daily Mix 3</h3>
+                                <p>still Rollin
+                                    latest Shubh ....</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/khasa.jpeg" alt="">
+                                <h3>Daily Mix 4</h3>
+                                <p>Khasa Aala Chahar,
+                                    Kaka...</p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="card-one">
+                    <div class="top-text">
+                        <h2>
+                            <a href="#">
+                                Fresh new music</a>
+                        </h2>
+                        <span>
+                            <a href="#">Show all</a>
+                        </span>
+
+
+
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/kappor.jpeg" alt="">
+                                <h3>New Music Hindi</h3>
+                                <p>'Jaane Jaan' title track is
+                                    we can't...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/new-song.jpeg" alt="">
+                                <h3>New in Dance</h3>
+                                <p>Latest floor fillers to
+                                    kickstart your party..</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/tanaji.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/incident.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/three-first.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="card-one">
+                    <div class="top-text">
+                        <h2>
+                            <a href="#">
+                                Fresh new music</a>
+                        </h2>
+                        <span>
+                            <a href="#">Show all</a>
+                        </span>
+
+
+
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/four-first.jpeg" alt="">
+                                <h3>New Music Hindi</h3>
+                                <p>'Jaane Jaan' title track is
+                                    we can't...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/one-first.jpeg" alt="">
+                                <h3>New in Dance</h3>
+                                <p>Latest floor fillers to
+                                    kickstart your party..</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/three-first.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/two-first.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/divine.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="card-one">
+                    <div class="top-text">
+                        <h2>
+                            <a href="#">
+                                Fresh new music</a>
+                        </h2>
+                        <span>
+                            <a href="#">Show all</a>
+                        </span>
+
+
+
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/kappor.jpeg" alt="">
+                                <h3>New Music Hindi</h3>
+                                <p>'Jaane Jaan' title track is
+                                    we can't...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/new-song.jpeg" alt="">
+                                <h3>New in Dance</h3>
+                                <p>Latest floor fillers to
+                                    kickstart your party..</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/tanaji.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/incident.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/three-first.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="card-one">
+                    <div class="top-text">
+                        <h2>
+                            <a href="#">
+                                Fresh new music</a>
+                        </h2>
+                        <span>
+                            <a href="#">Show all</a>
+                        </span>
+
+
+
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/four-first.jpeg" alt="">
+                                <h3>New Music Hindi</h3>
+                                <p>'Jaane Jaan' title track is
+                                    we can't...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/one-first.jpeg" alt="">
+                                <h3>New in Dance</h3>
+                                <p>Latest floor fillers to
+                                    kickstart your party..</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/three-first.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/two-first.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-card">
+                                <img src="./images/divine.jpeg" alt="">
+                                <h3>Daily Mix 1</h3>
+                                <p>AP Dhillon, Karan
+                                    Randhawa, Khasa...</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <footer>
+                    <div class="left-footer">
+                        <h3>Company</h3>
+                        <ul>
+                            <li>
+                                About
+                            </li>
+                            <li>
+                                Jobs
+                            </li>
+                            <li>
+                                For the Record
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="center-footer">
+                        <h3>Communities</h3>
+                        <ul>
+                            <li>
+                                For Artists
+                            </li>
+                            <li>
+                                Developers
+                            </li>
+                            <li>
+                                Advertising
+                            </li>
+                            <li>
+                                Investors
+                            </li>
+                            <li>
+                                Vendors
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-footer">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li>
+                                Support
+                            </li>
+                            <li>
+                                Free Mobile App
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="logos">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./images/instagram.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/twitter.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/facebook-app-symbol.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+                <div class="down-heading">
+
+
+                    <div class="all-text">
+                        <ul>
+                            <li>
+                                <a href="#">Legal</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Center
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+
+                                    Cookies
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    About Ads
+
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+
+                                    Accessibility
+
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <span>© 2023 Spotify Sandeep</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="album">
+
+
+                <div class="god-img">
+                    <img src="./images/shyam-ji.jpeg" alt="">
+                </div>
+                <div class="god-text">
+                    <h3>Khatu Wale Shyam Ji</h3>
+                    <p>Kanhaiya Mittal</p>
+                </div>
+                <i class="fa-regular fa-heart outline" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-heart full" style="color: #ffffff;"></i>
+            </div>
+            <div class="player">
+                <div class="top-player">
+                    <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
+                    <span class="play"><i class="fa-solid fa-play big " style="color: #000;"></i></span>
+                    <i class="fa-solid fa-forward-step" style="color: #ffffff;">
+                    </i>
+                    </i><i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+                </div>
+                <div class="bottom-player">
+                    <span class="curent">
+                        1:50
+                    </span>
+                    <input type="range">
+                    <span class="total">
+                        3:33
+                    </span>
+                </div>
+
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-film" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-laptop-code" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-rotate-left" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+                <input type="range">
+                <i class="fa-solid fa-image" style="color: #ffffff;"></i>
+
+            </div>
+        </div>
+    </div>
+    <section class="login">
+        <h1>Welcome to Spotify</h1>
+        <form method="post" name="loggin" action="#" id="loggin">
+            <fieldset>
+                <input id="username" name="username" type="text" placeholder="Username">
+            </fieldset>
+            <fieldset>
+                <input id="password" name="password" type="password" placeholder="Password">
+            </fieldset>
+            <fieldset>
+                <input type="submit" name='submit' value="Sign In" />
+            </fieldset>
+        </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://www.connecto.io/static/home/js/viewportchecker.js"></script>
+    <script type="text/javascript">
+
+        $(window).scroll(function () {
+            $('.login').hide();
+        });
+        $('.user').click(function () {
+            $('.login').slideToggle();
+        })
+
+        $('.bell-icon').click(function () {
+            $('.Notifications-text').show();
+            $('.modal-sinup-overlay').show();
+            $('body').addClass('scroll')
+        })
+    </script>
+</body>
+
+</html>
